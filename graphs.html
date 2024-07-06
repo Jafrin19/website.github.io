@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphs Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: orange;
+            padding: 20px;
+            height: 20vh;
+            border-bottom: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+        }
+        .header img {
+            width: 150px;
+            margin-left: 150px;
+        }
+        .header div {
+            text-align: center;
+            margin-right: 160px;
+        }
+        .header h1, .header p {
+            margin: 0;
+        }
+        nav {
+            background-color: black;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .content {
+            padding: 20px;
+            margin: 50px;
+        }
+        .graph-section {
+            border: 2px solid #000;
+            padding: 50px;
+            background-color: #fff;
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        .graph-section h2 {
+            top: 10px;
+            color:blue;
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .table, .table th, .table td {
+            border: 1px solid black;
+        }
+        .table th, .table td {
+            padding: 10px;
+            text-align: left;
+        }
+        .chart {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .inference {
+            margin-top: 20px;
+        }
+        .chart canvas {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgaVNEey06_aB_-6QRUzNmqc3USgQKbMgGfg&s" alt="College Logo">
+        <div>
+            <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+            <p>A unit of USHODAYA EDUCATIONAL SOCIETY Approved by AICTE, New Delhi & Permanently Affiliated to JNTU, Ananthapuram</p>
+            <p>NAAC 'A' Grade Accredited Institution, An ISO 9001:2015 certified Institution</p>
+            <p>Recognized under Sec.2(f) & 12(B) of UGC Act, 1956</p>
+            <p>Address: 3rd Mile Highway, Gangavaram(v), Kovur(Mdi) S.P.S.R.Nellore Dist-524137, Cell: 9912566220</p>
+        </div>
+    </div>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="abstract.html">Abstract</a>
+        <a href="introduction.html">Introduction</a>
+        <a href="questionaire.html">Questionnaire</a>
+        <a href="surveydata.html">Survey Data</a>
+        <a href="graphs.html">Graphs</a>
+        <a href="conclusion.html">Conclusion</a>
+        <a href="suggestions.html">Suggestions</a>
+        <a href="surveyphotos.html">Survey Photos</a>
+        <a href="teammembers.html">Team Members</a>
+    </nav>
+
+    <div class="content">
+        <div class="graph-section">
+            <h2>INFERENCE FROM THE SURVEY DATA</h2>
+            <div class="question">
+                <label for="question1">1.what is your studied stream in b-tech?
+                </label>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Options</th>
+                    <th>No. of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>No.of persons studied in CSE</td>
+                    <td>19</td>
+                    <td>38%</td>
+                </tr>
+                <tr>
+                    <td>No.of persons studied in ECE</td>
+                    <td>10</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>No.of persons studied in EEE</td>
+                    <td>6</td>
+                    <td>12%</td>
+                </tr>
+                <tr>
+                    <td>No.of persons studied in MECH</td>
+                    <td>4</td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <td>No.of persons studied in CIVIL</td>
+                    <td>11</td>
+                    <td>22%</td>
+                </tr>
+            </table>
+            <div class="chart">
+                <img src="c:\Users\hp\Desktop\me graphs Screenshot 2024-07-05 133436.png" width="300"height="300" alt="chart 1">
+                </div>
+                <div class="inference">
+                    <p style="font-size: 20px";>INTERPRETATION: <br><br>
+                        38% of people studied in CSE,20% of people studied
+                        in ECE, Where as 12% people studied in EEE, 8% of people studied in MECH
+                        and 22% of people studied in CIVIL.</p>
+                </div>
+            </div>
+        
+        <div class="graph-section">
+            <div class="question">
+                <label for="question2">2. In which year you completed your graduation?
+                </label>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Options</th>
+                    <th>No. of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons completed their 
+                        graduation from 2000-2010
+                        </td>
+                    <td>1</td>
+                    <td>2%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons completed their 
+                        graduation from 2011-2015
+                        </td>
+                    <td>8</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons completed their 
+                        graduation from 2016-2020</td>
+                    <td>14</td>
+                    <td>34%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons completed their 
+                        graduation from 2021-2024</td>
+                    <td>18</td>
+                    <td>44%</td>
+                </tr>
+            </table>
+            <div class="chart">
+                <img src="c:\Users\hp\Desktop\me graphs Screenshot 2024-07-05 191632.png" width="300"height="300" alt="chart 2">
+              
+            </div>
+            <div class="inference">
+                <p style="font-size: 20px";>INTERPRETATION: <br><br>
+                    Commonly 2% of the people are graduated during the 
+                    year 2000-2010.Around 20% of the people are graduated during the year 
+                    2011-2015, Around 34% of the people are graduated during the year 2016-
+                    2020, Around 44% of the people are graduated during the year 2021-2024.</p>
+            </div>
+        </div>
+        
+        <div class="graph-section">
+            <div class="question">
+                <label for="question3">3.Are you settled in your studied stream of b tech?
+                </label>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Options</th>
+                    <th>No. of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons </td>
+                    <td>50</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons Selected YES</td>
+                    <td>32</td>
+                    <td>64%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons Selected NO</td>
+                    <td>18</td>
+                    <td>36%</td>
+                </tr>
+                
+            </table>
+            <div class="chart">
+                <img src="c:\Users\hp\Desktop\me graphs Screenshot 2024-07-05 192312.png" width="300"height="300" alt="chart 3">
+               
+            </div>
+            <div class="inference">
+                <p style="font-size: 20px";>INTERPRETATION: <br><br>
+                    Among 50 people 64% of people are settled in their 
+                    studied stream of B-tech and 36% of people are not settled in their own studied 
+                    stream of B-tech.</p>
+            </div>
+        </div>
+        
+        <div class="graph-section">
+            <div class="question">
+                <label for="question4">4.How satisfied are you with your current job?</label>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Options</th>
+                    <th>No. of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons  
+                    </td>
+                    <td>50</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons who are satisfy in their 
+                        career
+                        </td>
+                    <td>37</td>
+                    <td>74</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons who are not satisfy in 
+                        their career</td>
+                    <td>13</td>
+                    <td>26%</td>
+                </tr>
+            
+            </table>
+            <div class="chart">
+                <img src="c:\Users\hp\Desktop\me graphs Screenshot 2024-07-05 192807.png" width="300"height="300" alt="chart 4">
+               
+            </div>
+            <div class="inference">
+                <p style="font-size: 20px";>INTERPRETATION: <br><br>
+                    Among 50 people 74% of the people are satisfied with 
+                    their current job. But 26% of the people are not satisfied with their current job 
+                    after their graduation. </p>
+            </div>
+        </div>
+        
+        <div class="graph-section">
+            <div class="question">
+                <label for="question5">5.Have you pursued any further education or certification after 
+                    completing your B-tech?
+                    </label>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Options</th>
+                    <th>No. of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons</td>
+                    <td>50</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons selected YES</td>
+                    <td>23</td>
+                    <td>46%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons selected NO</td>
+                    <td>27</td>
+                    <td>54%</td>
+                </tr>
+        
+            </table>
+            <div class="chart">
+                <img src="c:\Users\hp\Desktop\me graphs Screenshot 2024-07-05 193258.png" width="300"height="300" alt="chart 5">
+               
+            </div>
+            <div class="inference">
+                <p  style="font-size: 20px";>INTERPRETATION: <br><br>
+                    Among 50 people Commonly 46% of people have 
+                    further education or certifications after completing of their B-tech and 54% of 
+                    people are not have any further education or certification after completing of 
+                    their B-tech.</p>
+            </div>
+        </div>
+        
+        <div class="graph-section">
+            <div class="question">
+                <label for="question6">6.Have you Encountered any challenges in your career?
+                </label>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Options</th>
+                    <th>No. of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons </td>
+                    <td>50</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons selected YES</td>
+                    <td>45</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons selected NO</td>
+                    <td>5</td>
+                    <td>10%</td>
+                </tr>
+        
+            </table>
+            <div class="chart">
+                <img src="c:\Users\hp\Desktop\me graphs Screenshot 2024-07-05 193804.png" width="300"height="300" alt="chart 6">
+               
+            </div>
+            <div class="inference">
+                <p style="font-size: 20px";>INTERPRETATION: <br><br>
+                    Among 50 people commonly 90% of the people are 
+                    encountered challenges in their career and only 10% of the people are not 
+                    encountered any challenges in their career.</p>
+                
+            </div>
+        </div>
+        
+        <div class="graph-section">
+            <div class="question">
+                <label for="barQuestion">» Number Of People Who Settled In Their Own Field Of 
+                    Study Pursued In Btech
+                    </label>
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Options</th>
+                    <th>No. of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons </td>
+                    <td>50</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons settled in their 
+                        studied stream of BTECH</td>
+                    <td>32</td>
+                    <td>64%</td>
+                </tr>
+                <tr>
+                    <td>Total No. of Persons not settled in 
+                        their studied stream of BTECH</td>
+                    <td>18</td>
+                    <td>36%</td>
+                </tr>
+        
+            </table>
+            <div class="chart">
+                <img src="c:\Users\hp\Desktop\me graphs Screenshot 2024-07-05 194529.png" width="300"height="300" alt="chart 6">
+                 
+            </div>
+        </div>
+    </div>
+
